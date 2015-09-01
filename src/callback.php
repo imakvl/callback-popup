@@ -1,7 +1,7 @@
 <?php 
 
-$to  = "e.shishichkina@anta-sport.ru, " ; 
-$to .= "volineg@gmail.com"; 
+$to  = "*@*.ru, " ; 
+$to .= "*@*.com"; 
 $name = check_input($_GET["name"]);
 $phone = check_input($_GET["phone"]);
 $from = check_input($_GET["from"]);
@@ -13,7 +13,7 @@ $message = 'Контактное лицо: ' . $name . '<br>
 Время звонка: с ' . $from . ' до ' . $till; 
 
 $headers  = "Content-type: text/html; charset=utf-8 \r\n"; 
-$headers .= "From: e.shishichkina@anta-sport.ru\r\n"; 
+$headers .= "From: *@*.ru\r\n"; 
 
 mail($to, $subject, $message, $headers); 
 
