@@ -1,4 +1,3 @@
-
 <div id="popup">
   <figure>
     <figcaption id="fcaption">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</figcaption>
@@ -23,3 +22,4 @@
     <iframe id="frame0" width="0" height="0" src="" sytle="display:none"></iframe>
   </figure>
 </div>
+<script src="/sites/all/themes/antasport/js/callback.js"></script>
